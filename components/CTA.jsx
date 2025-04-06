@@ -8,9 +8,9 @@ const CTA = () => {
       className={`flexCenter marginY padding sm:flex-row flex-col bg-[#B28CFF]/10 border border-[#B28CFF]/10 rounded-[20px] box-shadow`}
     >
       <div className="flex-1 flex flex-col">
-        <h2 className="text-xl">A Message from the Founder!</h2>
+        <h2 className="text-xl">A message from the Founder!</h2>
         <p className={`text-md w-full mt-5`}>
-          At LeoTap, our mission is simple: to make your life easier by bringing
+          We at LeoTap, our mission is simple: to make your life easier by bringing
           all your essential services into one seamless experience. Whether
           you're shopping, ordering food, booking a ride, or sending a gift to a
           loved one, LeoTap is here to save you time and energy. We believe in
