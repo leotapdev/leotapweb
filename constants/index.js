@@ -40,21 +40,21 @@ export const features = [
     icon: "icons/badge.svg",
     title: "Certified",
     content:
-      "Our platform connects you with licensed and certified medical professionals who adhere to the highest standards of healthcare.",
+      "Our platform connects you with licensed and certified service providers who adhere to the highest standards of service.",
   },
   {
     id: "feature-2",
     icon: "icons/insurance.svg",
     title: "Competent",
     content:
-      "With years of expertise, our team personalized professional guidance to ensure the best possible care for every patient.",
+      "With years of expertise, our team provides personalized professional guidance to ensure the best possible experience for every user.",
   },
   {
     id: "feature-3",
     icon: "icons/kit.svg",
     title: "Equipped",
     content:
-      "Powered by advanced technology, AfyaConnect offers seamless consultations, secure data management, and instant health insights.",
+      "Powered by advanced technology, LeoTap offers seamless transactions, secure data management, and instant service insights.",
   },
 ];
 
@@ -122,19 +122,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.leotap.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://www.leotap.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.leotap.com/create/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "/terms",
+      },
+      {
+        name: "Privacy Policy",
+        link: "/policy",
       },
     ],
   },
@@ -143,19 +147,19 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.leotap.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.leotap.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.leotap.com/suggestions/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.leotap.com/newsletters/",
       },
     ],
   },
@@ -164,11 +168,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.leotap.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.leotap.com/become-a-partner/",
       },
     ],
   },
@@ -218,30 +222,60 @@ export const clients = [
 
 export const policies = [
   {
-    id: "feature-1",
+    id: "policy-1",
     icon: "assets/Star.svg",
     title: "Information we collect ▾",
     content:
-      "To provide and improve our services, AfyaConnect collects different types of information from users.",
+      "To provide and improve our services, LeoTap collects different types of information from users.",
     details:
-      "<strong>WhatsApp Number:</strong> Since registration is done through WhatsApp authentication, we collect your WhatsApp phone number to verify your identity and facilitate communication between you and healthcare professionals. This number may also be used for appointment reminders, notifications, or other essential service-related messages. </br></br><strong>Full Name:</strong> We collect your name to personalize your experience and allow doctors to address you properly during consultations. </br></br><strong>Email Address:</strong> While not mandatory, users may choose to provide an email address for additional communication, password recovery, or service updates.  </br></br><strong>Date of Birth:</strong> To ensure age-appropriate consultations and comply with medical service regulations.  </br></br><strong>Location:</strong> Users may voluntarily provide location details to help doctors give region-specific medical advice or recommendations. <br/><br/><strong>Medical Images & Documents:</strong/> Users can upload medical images (such as X-rays, lab results, or prescriptions) for analysis by healthcare professionals. These documents are stored securely and used only for consultation purposes.",
+      "<strong>Phone Number:</strong> We collect your phone number to verify your identity and facilitate communication. This may also be used for order updates, notifications, or other essential service-related messages. </br></br><strong>Full Name:</strong> We collect your name to personalize your experience. </br></br><strong>Email Address:</strong> While not mandatory, users may choose to provide an email address for additional communication or service updates.  </br></br><strong>Location:</strong> We collect precise or approximate location data to provide services like rides, food delivery, and local shopping. <br/><br/><strong>Uploaded Content:</strong> Users can upload images (such as profile photos, restaurant logos, or product photos) for use within the app. These are stored securely.",
   },
   {
-    id: "feature-2",
+    id: "policy-2",
     icon: "assets/Shield.svg",
     title: "Your privacy control ▾",
     content:
-      "At AfyaConnect, we believe that you should have full control over your personal information.",
+      "At LeoTap, we believe that you should have full control over your personal information.",
     details:
       "We prioritize giving you control over your personal information. We understand that privacy preferences vary from user to user, which is why we provide multiple options and privacy settings and options to help you manage how your data is collected, used, and shared. You can choose what information to provide, update your details at any time, and adjust your communication preferences. Additionally, we ensure that you can request access to, modify, or delete your personal data as needed. Our goal is to give you transparency and flexibility while maintaining the security of your information.",
   },
   {
-    id: "feature-3",
+    id: "policy-3",
     icon: "assets/Send.svg",
     title: "Your privacy protection ▾",
     content:
-      "At AfyaConnect, safeguarding your personal information is our top priority.",
+      "At LeoTap, safeguarding your personal information is our top priority.",
     details:
-      "We implement strict security measures and data protection protocols to ensure that your information remains confidential, secure, and protected from unauthorized access. Below are the key ways we protect your privacy: <br/><strong>Secure Data Encryption:</strong> We use end-to-end encryption to protect sensitive data, such as medical images, consultation details, and personal information, from unauthorized access. <br/>Any communication between you and a doctor, whether via chat or video call, is encrypted to maintain confidentiality. <br/>Stored data, including medical records and user details, is secured using advanced encryption algorithms to prevent data breaches. <br/><br/><strong>Strict Access Controls:</strong/> Only authorized healthcare professionals can access your shared medical data, and even they have limited access based on their role and your consent. <br/>We implement role-based access control (RBAC) to ensure that only verified doctors can view specific user-provided medical information. <br/>You have control over what information is shared and can restrict access to sensitive data at any time. <br/><br/><strong>Secure Authentication & User Verification:</strong> Registration and login are conducted through WhatsApp authentication, ensuring a secure and convenient way to verify your identity. <br/>We use multi-layer authentication techniques to prevent unauthorized logins or account takeovers. <br/>In case of suspicious activity, users may be required to verify their identity to prevent fraud or misuse. <br/><br/><strong>Data Anonymization & Confidentiality:</strong> When data is used for research, analytics, or service improvements, it is anonymized to ensure that no personally identifiable information (PII) is exposed. <br/>Your consultation history, medical records, and shared documents are kept strictly confidential and are not accessible to unauthorized parties. <br/>AfyaConnect employees and third-party service providers are bound by strict confidentiality agreements to protect user privacy. <br/><br/><strong>Protection Against Cyber Threats:</strong> We regularly monitor our platform for cyber threats, unauthorized access attempts, and potential vulnerabilities to ensure continuous protection. <br/>Our security systems automatically detect and block suspicious activities, phishing attempts, and hacking attempts.<br/>Regular security audits and updates help keep our platform resilient against evolving cybersecurity threats.",
+      "We implement strict security measures and data protection protocols to ensure that your information remains confidential, secure, and protected from unauthorized access. Below are the key ways we protect your privacy: <br/><strong>Secure Data Encryption:</strong> We use encryption to protect sensitive data, such as transaction details and personal information, from unauthorized access. <br/>Any communication between you and a service provider is secured to maintain confidentiality. <br/>Stored data, including user details, is secured using advanced encryption algorithms to prevent data breaches. <br/><br/><strong>Strict Access Controls:</strong> Only authorized personnel can access your shared data, and even they have limited access based on their role and your consent. <br/>We implement role-based access control (RBAC) to ensure that only verified employees can view specific user-provided information. <br/><br/><strong>Secure Authentication:</strong> Registration and login are conducted through secure authentication, ensuring a safe way to verify your identity. <br/>We use multi-layer authentication techniques to prevent unauthorized logins or account takeovers. <br/><br/><strong>Data Anonymization:</strong> When data is used for research, analytics, or service improvements, it is anonymized to ensure that no personally identifiable information (PII) is exposed.",
+  },
+];
+
+export const terms = [
+  {
+    id: "term-1",
+    icon: "assets/Star.svg",
+    title: "Acceptance of Terms ▾",
+    content:
+      "By using LeoTap, you agree to comply with and be bound by these Terms of Service.",
+    details:
+      "Please read these Terms of Service carefully before using our website or mobile application. By accessing or using any part of the service, you agree to become bound by the terms and conditions of this agreement. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services.",
+  },
+  {
+    id: "term-2",
+    icon: "assets/Shield.svg",
+    title: "User Accounts ▾",
+    content:
+      "You are responsible for maintaining the security of your account and for all activities that occur under the account.",
+    details:
+      "You must provide accurate and complete information when creating an account. You are solely responsible for the activity that occurs on your account, and you must keep your account password secure. You must notify LeoTap immediately of any breach of security or unauthorized use of your account. LeoTap will not be liable for your acts or omissions, including any damages of any kind incurred as a result of such acts or omissions.",
+  },
+  {
+    id: "term-3",
+    icon: "assets/Send.svg",
+    title: "Service Usage ▾",
+    content:
+      "Our services must be used in accordance with the law and our guidelines.",
+    details:
+      "You may not use LeoTap for any illegal or unauthorized purpose. You must not, in the use of the service, violate any laws in your jurisdiction (including but not limited to copyright laws). You are responsible for all content posted and activity that occurs under your account. We reserve the right to terminate your access to the service if you violate any of these terms.",
   },
 ];
