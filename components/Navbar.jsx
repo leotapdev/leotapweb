@@ -2,6 +2,7 @@
 import { navLinks } from "@/constants";
 import Image from "next/image";
 import React, { useState } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -9,13 +10,15 @@ const Navbar = () => {
   // b28cff
   return (
     <nav className="flex fixed top-0 left-0 right-0 w-full z-10 py-3 paddingX justify-between items-center bg-white border-b border-gray-300">
-      <Image
-        className="w-[32px] h-[32px]"
-        src="/assets/logo.png"
-        height={512}
-        width={512}
-        alt="logo"
-      />
+      <Link href="/">
+        <Image
+          className="w-[32px] h-[32px]"
+          src="/assets/logo.png"
+          height={512}
+          width={512}
+          alt="logo"
+        />
+      </Link>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -26,7 +29,7 @@ const Navbar = () => {
             } text-[#0066a1] mr-10`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <Link href={`/#${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -55,7 +58,7 @@ const Navbar = () => {
                 } text-black mr-10`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <Link href={`/#${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>
