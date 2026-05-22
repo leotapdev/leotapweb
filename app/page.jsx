@@ -1,5 +1,6 @@
 import Billing from "@/components/Billing";
 import Business from "@/components/Business";
+import Founders from "@/components/Founders";
 import CardDeal from "@/components/CardDeal";
 import Clients from "@/components/Clients";
 import CTA from "@/components/CTA";
@@ -22,6 +23,7 @@ export default function Home() {
         <div className="boxWidth">
           <Stats />
           <Business />
+          <Founders />
           <Billing />
           <CardDeal />
           <Testimonials />
