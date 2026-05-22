@@ -85,6 +85,23 @@ export const feedback = [
   },
 ];
 
+export const founders = [
+  {
+    id: "founder-1",
+    name: "MOH'D ALI MASSOUD",
+    role: "BUSINESS MAN",
+    img: "/assets/mohamed.jpeg",
+    bio: "Visionary business leader driving the growth, strategy, and operational excellence of LeoTap.",
+  },
+  {
+    id: "founder-2",
+    name: "ELIA WILLIAM MARIKI",
+    role: "Software engineer",
+    img: "/assets/ELIAMARIKI.jpeg",
+    bio: "Lead technical architect and developer, shaping the robust, seamless technology behind the LeoTap super app.",
+  },
+];
+
 export const stats = [
   {
     id: "stats-1",
